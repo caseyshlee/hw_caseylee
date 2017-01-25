@@ -1,0 +1,32 @@
+Problem 1
+a. 
+	1. Looking up information relevant to the course online.
+	4. Asking the course staff for help.
+	8. Copying test cases from my classmates or Piazza when test cases are not graded.
+b. 
+	2. emacs
+	3. Eclipse
+	4. sublime
+	5. MS Visual Studio (or MS VS Code)
+c. 
+	2. Each student has 4 late days of which only 1 can be used per HW.
+d.
+	2. Complete the homework submission form.
+	3. Email your instructor.
+	4. Start the next assignment sooner.
+	
+	
+Problem 2
+a. 
+	1. Git Bash (Windows)
+	3. Terminal (Mac or Linux)
+b.	
+	1. git add hw1q2b.cpp
+	2. git log -p -3
+
+c.	It would commit all files that are staged for commit without a commit message
+
+Problem 4
+The function func1 changes the first element of each row in the array while func2 adds all the
+elements of each row. Since func1 is called before func2, the values are updates before they are added together.
+This is why the first element of the second row has the value of ten instead of 5 like it normally would.
