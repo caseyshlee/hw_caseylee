@@ -1,0 +1,19 @@
+Problem 1
+a. It's untracked
+b. README.md is modified and fun_problem.txt is untracked
+c. They are both tracked and are added to the repository now
+d. README.md has "Markdown is too easy" added to it and fun_problem.txt has "So far, so good" added to it.
+e. README.md is updated in the working directory while fun_problem.txt has its changes discarded in the working directory. The contents would be empty. 
+f. README.md is still staged for committing. It didn't have changes made to it discarded like fun_problem.txt did.
+
+Problem 3
+a. O(n^2). This would run in quadratic time because for each run through of the first loop, the second for loop runs that many times more with each iteration.
+b. O(n^2). This is similar to part a but there's also an added condition for when A[k] == i, which would mean it would still run similarly.
+c. If the program runs through the if statement the first time and the conditions are met, then the program will run in O(n) time. The recursive call is what would make the program start to run in O(n^2) or quadratic time. 
+d. The running time of this would be linear or O(n) because you're changing elements one at a time when you keep adding into a vector.
+
+Problem 4
+1. A map of songs with their corresponding album titles and track numbers. The names of the songs are stored in key, value pairs because they later need to be accessed and will already be in order.
+2. A list of steps for a recipe to bake a cake. The steps will all be ordered already, and there is no need to save keys since we only want to keep track of the values (the steps) themselves.
+3. This would probably include a list of file extensions with appropriate programs to read them. It's not so much about storing the keys as it is the values as we're trying to be able to identify which programs can read a given file.
+4. A set of TV station identifications. A set would be most appropriate because there would be no duplicate keys and are accessed based on value (the letters corresponding to the specific TV station).
